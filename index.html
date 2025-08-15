@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maharagama Toastmasters Club</title>
+    <meta name="description" content="Join Maharagama Toastmasters Club where leaders and communicators grow. Develop your public speaking and leadership skills in a supportive environment.">
+    <meta name="keywords" content="toastmasters, public speaking, leadership, communication skills, maharagama, sri lanka">
+    
+     Open Graph 
+    <meta property="og:title" content="Maharagama Toastmasters Club">
+    <meta property="og:description" content="Where leaders and communicators grow—one meeting at a time.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://maharagamatoastmasters.com">
+    
+     Favicon 
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+     Fonts 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+     Lucide Icons 
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+     Styles 
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+     Navigation 
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                 Logo 
+                <a href="#home" class="logo">
+                    <div class="logo-icon">TM</div>
+                    <span class="logo-text">Maharagama Toastmasters</span>
+                </a>
+
+                 Desktop Navigation 
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About Us</a>
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                    <a href="memories.html" class="nav-link">Memories</a>
+                </div>
+
+                 Mobile Menu Button 
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+
+             Mobile Navigation 
+            <div class="mobile-nav" id="mobileNav">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#about" class="mobile-nav-link">About Us</a>
+                <a href="#contact" class="mobile-nav-link">Contact Us</a>
+                <a href="memories.html" class="mobile-nav-link">Memories</a>
+            </div>
+        </div>
+    </nav>
+
+     Hero Section 
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="assets/images/toastmasters-meeting.jpg" alt="Maharagama Toastmasters Club Members" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="container hero-content">
+             Meeting Badge 
+            <div class="meeting-badge">
+                <i data-lucide="calendar"></i>
+                <span>Next Meeting: Every 1st and 3rd Saturdays 4:00 PM</span>
+            </div>
+
+             Main Headline 
+            <h1 class="hero-title">
+                <span class="gradient-text">Welcome to</span><br>
+                <span class="white-text">Maharagama Toastmasters</span>
+            </h1>
+
+             Sub-headline 
+            <p class="hero-subtitle">
+                Where leaders and communicators grow—one meeting at a time.
+            </p>
+
+             CTA Buttons 
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('about')">About Us</button>
+                <button class="btn btn-outline" onclick="scrollToSection('contact')">Contact Us</button>
+            </div>
+
+             Guest CTA 
+            <div class="guest-cta">
+                <div class="guest-header">
+                    <i data-lucide="users"></i>
+                    <span>Guest?</span>
+                </div>
+                <p>Join us for our next meeting and experience the Toastmasters difference!</p>
+                <div class="venue-info">
+                    <i data-lucide="map-pin"></i>
+                    <span>Maharagama YMBA</span>
+                </div>
+            </div>
+        </div>
+
+         Scroll Indicator 
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+     About Section 
+    <section id="about" class="about">
+        <div class="container">
+             Section Header 
+            <div class="section-header">
+                <div class="badge">About Us</div>
+                <h2 class="section-title">
+                    Building Tomorrow's <span class="gradient-text">Leaders</span>
+                </h2>
+                <p class="section-subtitle">
+                    Discover how we transform individuals into confident speakers and effective leaders through proven methodologies and supportive community.
+                </p>
+            </div>
+
+             Stats Row 
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Active Members</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Meetings/Month</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5  +</div>
+                    <div class="stat-label">Years Active</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Speeches Delivered</div>
+                </div>
+            </div>
+
+             About Cards 
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <div class="about-content">
+                        <h3>About Toastmasters</h3>
+                        <p>Toastmasters International is a global organization dedicated to developing communication and leadership skills through structured club meetings and the comprehensive Pathways learning experience.</p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <div class="about-content">
+                        <h3>About Our Club</h3>
+                        <p>Founded in Maharagama, we're part of District 82, meeting 1st and 3rd Saturdays to foster growth in a supportive environment. Our diverse community welcomes students, professionals, and anyone eager to improve.</p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i data-lucide="target"></i>
+                    </div>
+                    <div class="about-content">
+                        <h3>Our Members</h3>
+                        <p>Our club brings together individuals from various backgrounds—entrepreneurs, students, teachers, and professionals—all united by the common goal of becoming better communicators and leaders.</p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i data-lucide="message-square"></i>
+                    </div>
+                    <div class="about-content">
+                        <h3>What We Do</h3>
+                        <p>We focus on prepared speeches, constructive evaluations, impromptu speaking (Table Topics), mentoring relationships, speech contests, and community service projects that make a real difference.</p>
+                    </div>
+                </div>
+            </div>
+
+             Key Activities 
+            <div class="activities-section">
+                <div class="activities-header">
+                    <h3>What Makes Us Special</h3>
+                    <p>Our structured approach to learning ensures every member grows at their own pace while contributing to the club's vibrant community.</p>
+                </div>
+
+                <div class="activities-grid">
+                    <div class="activity-item">
+                        <div class="activity-icon">
+                            <i data-lucide="award"></i>
+                        </div>
+                        <h4>Structured Learning</h4>
+                        <p>Follow proven Pathways curriculum designed for progressive skill development</p>
+                    </div>
+
+                    <div class="activity-item">
+                        <div class="activity-icon">
+                            <i data-lucide="trending-up"></i>
+                        </div>
+                        <h4>Personal Growth</h4>
+                        <p>Receive constructive feedback and mentorship from experienced members</p>
+                    </div>
+
+                    <div class="activity-item">
+                        <div class="activity-icon">
+                            <i data-lucide="star"></i>
+                        </div>
+                        <h4>Recognition</h4>
+                        <p>Participate in contests and earn awards for your achievements</p>
+                    </div>
+                </div>
+
+                <div class="activities-cta">
+                    <button class="btn btn-primary" onclick="scrollToSection('contact')">Join Our Community</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Contact Section 
+    <section id="contact" class="contact">
+        <div class="container">
+             Section Header 
+            <div class="section-header">
+                <div class="badge">Contact Us</div>
+                <h2 class="section-title">
+                    Ready to <span class="gradient-text">Join Us?</span>
+                </h2>
+                <p class="section-subtitle">
+                    Take the first step towards becoming a confident speaker and effective leader. We're here to help you begin your journey.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                 Contact Information 
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+
+                     Contact Cards 
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">Email</div>
+                                <a href="mailto:maharagama.toastmasters@example.com" class="contact-value">maharagama.toastmasters@example.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i data-lucide="instagram"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">Instagram</div>
+                                <a href="https://instagram.com/maharagama_toastmasters" target="_blank" class="contact-value">@maharagama_toastmasters</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i data-lucide="facebook"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">Facebook</div>
+                                <a href="https://facebook.com/maharagamatm" target="_blank" class="contact-value">facebook.com/maharagamatm</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">President</div>
+                                <a href="tel:+94XXXXXXXX" class="contact-value">+94 7X XXX XXXX</a>
+                            </div>
+                        </div>
+                    </div>
+
+                     Meeting Information 
+                    <div class="meeting-info">
+                        <h4><i data-lucide="map-pin"></i> Meeting Details</h4>
+                        <div class="meeting-item">
+                            <i data-lucide="clock"></i>
+                            <div>
+                                <div class="meeting-title">1st and 3rd Saturday</div>
+                                <div class="meeting-subtitle">4:00 PM - 6:00 PM</div>
+                            </div>
+                        </div>
+                        <div class="meeting-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <div class="meeting-title">Maharagama YMBA</div>
+                                <div class="meeting-subtitle">No 25, Bauddha Manadira Pedesa, Vidyakara Mawatha<br>Maharagama, Sri Lanka</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 Contact Form 
+                <div class="contact-form-container">
+                    <div class="form-card">
+                        <h3>Send us a Message</h3>
+                        <p>Have questions? Want to visit as a guest? We'd love to hear from you!</p>
+
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i data-lucide="send"></i>
+                                <span>Send Message</span>
+                            </button>
+                        </form>
+
+                         Success Message 
+                        <div id="successMessage" class="success-message" style="display: none;">
+                            <i data-lucide="check-circle"></i>
+                            <h4>Message Sent!</h4>
+                            <p>Thank you for reaching out. We'll get back to you soon!</p>
+                        </div>
+
+                         Error Message 
+                        <div id="errorMessage" class="error-message" style="display: none;">
+                            <p>Something went wrong. Please try again later.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Footer 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                 Logo and Description 
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">TM</div>
+                        <span class="logo-text">Maharagama Toastmasters</span>
+                    </div>
+                    <p class="footer-description">
+                        Building confident speakers and effective leaders through structured learning, constructive feedback, and supportive community engagement.
+                    </p>
+                    <div class="footer-location">
+                        <i data-lucide="map-pin"></i>
+                        <span>Maharagama Community Center, Sri Lanka</span>
+                    </div>
+                </div>
+
+                 Quick Links 
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="memories.html">Memories</a></li>
+                    </ul>
+                </div>
+
+                 Social Links 
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/maharagama_toastmasters" target="_blank" class="social-link">
+                            <i data-lucide="instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://facebook.com/maharagamatm" target="_blank" class="social-link">
+                            <i data-lucide="facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="mailto:maharagama.toastmasters@example.com" class="social-link">
+                            <i data-lucide="mail"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             Bottom Bar 
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Maharagama Toastmasters Club. All rights reserved.</p>
+                <p>Part of Toastmasters International District 82</p>
+            </div>
+        </div>
+    </footer>
+
+     Scripts 
+    <script src="js/main.js"></script>
+</body>
+</html>

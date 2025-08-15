@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Memories - Maharagama Toastmasters Club</title>
+    <meta name="description" content="Explore the memorable moments and achievements of Maharagama Toastmasters Club members.">
+    
+     Favicon 
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+     Fonts 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+     Lucide Icons 
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+     Styles 
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/memories.css">
+</head>
+<body>
+     Navigation 
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                 Logo 
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">TM</div>
+                    <span class="logo-text">Maharagama Toastmasters</span>
+                </a>
+
+                 Desktop Navigation 
+                <div class="nav-links">
+                    <a href="index.html#home" class="nav-link">Home</a>
+                    <a href="index.html#about" class="nav-link">About Us</a>
+                    <a href="index.html#contact" class="nav-link">Contact Us</a>
+                    <a href="memories.html" class="nav-link active">Memories</a>
+                </div>
+
+                 Mobile Menu Button 
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+
+             Mobile Navigation 
+            <div class="mobile-nav" id="mobileNav">
+                <a href="index.html#home" class="mobile-nav-link">Home</a>
+                <a href="index.html#about" class="mobile-nav-link">About Us</a>
+                <a href="index.html#contact" class="mobile-nav-link">Contact Us</a>
+                <a href="memories.html" class="mobile-nav-link active">Memories</a>
+            </div>
+        </div>
+    </nav>
+
+     Main Content 
+    <main class="memories-main">
+        <div class="container">
+             Header 
+            <div class="memories-header">
+                <a href="index.html" class="back-link">
+                    <i data-lucide="arrow-left"></i>
+                    Back to Home
+                </a>
+                <h1 class="memories-title">Club Memories</h1>
+                <p class="memories-subtitle">
+                    Capturing the moments that define our journey as communicators and leaders
+                </p>
+            </div>
+
+             Filter Tabs 
+            <div class="filter-tabs" id="filterTabs">
+                <button class="filter-tab active" data-filter="all">All</button>
+                <button class="filter-tab" data-filter="meetings">Meetings</button>
+                <button class="filter-tab" data-filter="contests">Contests</button>
+                <button class="filter-tab" data-filter="workshops">Workshops</button>
+                <button class="filter-tab" data-filter="socials">Socials</button>
+                <button class="filter-tab" data-filter="awards">Awards</button>
+                <button class="filter-tab" data-filter="2024">2024</button>
+                <button class="filter-tab" data-filter="2025">2025</button>
+                <button class="filter-tab" data-filter="2026">2026</button>
+            </div>
+
+             Photo Grid 
+            <div class="memories-grid" id="memoriesGrid">
+                 Memory items will be populated by JavaScript 
+            </div>
+
+             No Results Message 
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>No memories found for the selected filter.</p>
+            </div>
+        </div>
+    </main>
+
+     Lightbox Modal 
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">
+                <i data-lucide="x"></i>
+            </button>
+            <img id="lightboxImage" src="/placeholder.svg" alt="">
+            <div class="lightbox-info">
+                <div class="lightbox-meta">
+                    <span id="lightboxCategory" class="lightbox-badge"></span>
+                    <div class="lightbox-date">
+                        <i data-lucide="calendar"></i>
+                        <span id="lightboxDate"></span>
+                    </div>
+                </div>
+                <p id="lightboxCaption" class="lightbox-caption"></p>
+            </div>
+        </div>
+    </div>
+
+     Footer 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                 Logo and Description 
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">TM</div>
+                        <span class="logo-text">Maharagama Toastmasters</span>
+                    </div>
+                    <p class="footer-description">
+                        Building confident speakers and effective leaders through structured learning, constructive feedback, and supportive community engagement.
+                    </p>
+                    <div class="footer-location">
+                        <i data-lucide="map-pin"></i>
+                        <span>Maharagama Community Center, Sri Lanka</span>
+                    </div>
+                </div>
+
+                 Quick Links 
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="memories.html">Memories</a></li>
+                    </ul>
+                </div>
+
+                 Social Links 
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/maharagama_toastmasters" target="_blank" class="social-link">
+                            <i data-lucide="instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://facebook.com/maharagamatm" target="_blank" class="social-link">
+                            <i data-lucide="facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="mailto:maharagama.toastmasters@example.com" class="social-link">
+                            <i data-lucide="mail"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             Bottom Bar 
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Maharagama Toastmasters Club. All rights reserved.</p>
+                <p>Part of Toastmasters International District 82</p>
+            </div>
+        </div>
+    </footer>
+
+     Scripts 
+    <script src="js/main.js"></script>
+    <script src="js/memories.js"></script>
+</body>
+</html>
