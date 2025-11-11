@@ -41,9 +41,9 @@ export default function About() {
   ]
 
   const stats = [
-    { number: "20+", label: "Active Members" },
+    { number: "25+", label: "Active Members" },
     { number: "2", label: "Meetings/Month" },
-    { number: "5+", label: "Years Active" },
+    { number: "7+", label: "Years Active" },
     { number: "50+", label: "Speeches Delivered" },
   ]
 

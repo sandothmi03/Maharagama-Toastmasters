@@ -28,7 +28,7 @@ export default function Contact() {
     },
     {
       icon: Phone,
-      label: "President",
+      label: "President - Shamilka Ranasinghe",
       value: "+94 77 389 9272",
       href: "tel:+94 77 389 9272",
     },
